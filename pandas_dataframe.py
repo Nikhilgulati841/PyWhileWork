@@ -20,9 +20,10 @@ import pandas as pd
 
 data_dict={"Tasks to do":["Sleep @4:30 Am","Wake up @10:30 Am","Exercise & bath ^11:30 Am"]}
 
-data=pd.DataFrame(data_dict,columns=["Tasks to do"],index=)
+data=pd.DataFrame(data_dict,columns=["Tasks to do"],index=["@4:30 Am","@10:30 Am","@11:30 Am"])
 
 print(data)
-
+# to delete one row, that row should be a index row
+# Also, find the syntax to delete the Column
 data=data.drop("@4:30 Am")
 print(data)
