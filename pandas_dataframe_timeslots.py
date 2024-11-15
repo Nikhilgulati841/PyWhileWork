@@ -5,9 +5,16 @@
 
 
 import pandas as pd
+from datetime import datetime 
 
-data_dict={"TASKS    ":["Start Studying","Study till here","REVISION",
-                        "Exercise, bath & Sleep"],"REMINDERS":["a","b","c","d"],"T Slots":["@4:30 Am","@10:30 Am","@11:30 Am","@12:30 Pm"]}
+a=datetime.now()
+print(a)
+
+
+data_dict={:["Reached Room, ready for studying",                    "Start Studying","Study till here","REVISION",
+                        "Exercise, bath & Sleep"],
+        "REMINDERS   ":["a","b","c","d","e"],
+        "T Slots":["@4:10 Am","@4:30 Am","@10:30 Am","@11:30 Am","@12:30 Pm"]}
 
 data=pd.DataFrame(data_dict)
 # data["TASKS"].str.pad(width=4,fillchar="T",side="both")
@@ -15,10 +22,9 @@ data=data.set_index("T Slots")
 print(data)
 
 
-
+"""--------------------------------------------------------------------------
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
+--------------------------------------------------------------------------"""
 
 # Two versions for understanding  14/11/2024
 
