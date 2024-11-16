@@ -5,6 +5,8 @@ did not want to stop using while or for loop, whichever suits you.
 
 **Disclaimer 2-->** Make this data printed as a schedule.csv or xlsx as schedule 1, Schedule 2 or Date 1, Date 2 (Learn Read and write to the file using python)
 
+**Disclaimer 2-->** Use the append method to store N number of time slots and also to update and delete use the list.
+
 1--> Use User input to ask for **Time Slots** as t1,t2,t3... t7 or user input until user want's to stop
 
 2--> Same as above, ask user to enter the **Defined Tasks** as d1,d2,d3... same number as **Time Slots**
