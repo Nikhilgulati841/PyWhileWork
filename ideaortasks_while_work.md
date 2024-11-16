@@ -1,3 +1,5 @@
+**NOT DONE**
+
 In **pandas_dataframe_timeslots.py**
 
 -
@@ -8,7 +10,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 **Disclaimer 3-->** Use the append method to store N number of time slots and also to update and delete use the list.
 
-**Disclaimer 3-->** As sson as you have typed all your Slots, Display it also. So, 1<sup>st</sup> Table for Time Slot display & 2<sup>nd</sup> for Full Schedule Display.
+**Disclaimer 3-->** As soon as you have typed all your Slots, Display it also. So, 1<sup>st</sup> Table for Time Slot display & 2<sup>nd</sup> for Full Schedule Display.
 
 -
 1--> Use User input to ask for **Time Slots** as t1,t2,t3... t7 or user input until user want's to stop
@@ -23,18 +25,33 @@ did not want to stop using while or for loop, whichever suits you.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**NOT DONE**
 
 In **A New File of Python**
 
 use the CSV or xlsx file to retrieve the data from it and use it in python using the pandas **DataFrame** or any other library. maybe this is in the **Python TuteDude course**
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**NOT DONE**
 
 Get the wifi names and the passwords for all the wifi connected to the laptop using python
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**NOT DONE**
+
 get your **ideas_while_work.md** file copy paste in your **JFoldknewme.docx** file saved in Drive and see what happens.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**NOT DONE** Tasks of the DAY **(16/11/2024)** 
+You can sometimes directly copy paste from **ideasortasks_while_work.md**
+-\
+1. Gather all your sources, that you access and work on. Make a **Linked Diagram** all. -stored PW -Daily Understanding docs -Programs saved -physical memory -Online memory -Git Memory(**Nikhilgulati841**) --Git Repositories for testing & Completed Projects | Programs (**_PyWhileWork_** & **JFoldknewme**) --daily ideas or tasks while Work(**ideasortasks_while_work.md**) *[Daily Understanding.docx & a Git file daily_understanding.md]*    (0.5 hrs)
+2. Work | Revise | Write the concepts of **FDD** and the changes needed (1.5 hrs)
+3. Work | Revise | Write on **VDD** (1 hrs)
+4. Complete **pandas_dataframe_timeslots.py** (2.5 hrs)
+5. **Revision** of all you have done. (1 hrs)
 
+-
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
