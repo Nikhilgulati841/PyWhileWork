@@ -1,5 +1,5 @@
 from datetime import datetime, date, time, timedelta
-import pytz
+import pytz       #BEGGINING OF 2025, I WILL APPLY FOR PYTHON DEVELOPER JOBS
 #Normal Timezone
 a=datetime.now()
 print(a)
@@ -27,7 +27,7 @@ user_input_date=input("\nEnter the date you wish to get added | Format[day(XX)-m
 
 user_date=datetime.strptime(user_input_date,"%d-%m-%Y")
 print("\n")
-print(f"Adding {add} days...!! to the user inputted date: {user_input_date}\n")
+print(f"Adding {add} days...!! to this DATE: {user_input_date}\n")
 d=user_date+timedelta(days=add)
 print(d.strftime("Weekday: %A\nTime: %I:%M:%S %p\nDate: %d-%b-%Y"))
 
