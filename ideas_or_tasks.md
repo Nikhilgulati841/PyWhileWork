@@ -52,7 +52,7 @@ You can sometimes directly copy paste from **ideasortasks_while_work.md**
 3. Work | Revise | Write on **VDD** (1 hrs)
 4. Complete **pandas_dataframe_timeslots.py** (2.5 hrs)
 5. **Revision** of all you have done. (1 hrs)
-6. Name your APP for pandas_dataframe_timeslots.py (IAS--> Implement Analyzed Schedule) IAS.exe
+6. Name your APP for pandas_dataframe_timeslots.py (**IAS**--> Implement Analyzed Schedule) **IAS.exe**
 
 -
 
