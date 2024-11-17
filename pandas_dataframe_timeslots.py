@@ -1,4 +1,4 @@
-#understandings...
+#understandings... 
 # a=[]
 # a.append({"t1":"hello"})
 # print(a[0]["t1"])
@@ -8,6 +8,7 @@
 # for i in b:
 #     print(i)
 
+# version completed on 18/11/2024
 
 import pandas as pd
 from datetime import datetime 
@@ -15,18 +16,18 @@ from datetime import datetime
 # a=datetime.now()
 # print(a)
 
-timelist=[]
-t=0
+tslotslist=[]
+t="a"
 #ask for the time slots till the user wanted to
 print("""Enter the time slots(as many as you want), 
-and when you wish to stop..!! taking anymore slots| **Type--> ok in Small Letters**\n""")
-
+Type--> ok | Stop taking anymore slots.\n""")
+print("Start Entering Time Slots..:\n")
 for i in range(1,21):
-    if t!="ok":
+    if t.lower()!="ok":
         t=input(f"Enter Slot {i}:")
-        timelist.append(t)
-    elif t=="ok" or t=="Ok" or t=="OK":
-        timelist.remove(timelist[-1])
+        tslotslist.append(t)
+    elif t.lower()=="ok":
+        tslotslist.remove(tslotslist[-1])
         break
         
 # print(timelist)
@@ -34,15 +35,36 @@ for i in range(1,21):
 #use the same list timelist as the list that needs to be provided under column "Slots"
 #this way you will not have to provide all t1,t2,t3,t... till the number of time slots it will ask from the user
 #by this you avoid using another for or while loop to enter n number of t...(n)
-dict_tslots={"T-Slots":timelist
+tslots_dict={"T-Slots":tslotslist
     
 }
 
-tslots=pd.DataFrame(dict_tslots)
+tslots=pd.DataFrame(tslots_dict)
 tslots.index=tslots.index+1
 tslots.index.name="S.No"
 # tslots.index.name="Slot Count"  # to update index name
 print("\nTime Slots Displaying...!!\n",tslots)
+print("\n")
+
+#Now asking for the TASKS for each T-Slots
+dtlist=[]
+dt="a"
+for i in range(len(tslotslist)):
+    dt=input(f"Enter the Defined Task for {tslotslist[i]}:")
+    dtlist.append(dt)
+    
+dt_dict={"T-Slots":tslotslist,"Defined Tasks":dtlist
+    
+}
+
+dtdata=pd.DataFrame(dt_dict)
+dtdata.index+=1
+dtdata.index.name="S.No"
+print("\n")
+print("Schedule Displaying...!!")
+print(dtdata)
+    
+    
 
 
 # data_dict={"T-Slots":["@4:10 Am","@4:30 Am","@10:00 Am","@11:00 Am","@12:00 Pm",
@@ -71,6 +93,7 @@ print("\nTime Slots Displaying...!!\n",tslots)
 
 # # # b=datetime.now()
 # # # print(b)
+
 """--------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------"""
