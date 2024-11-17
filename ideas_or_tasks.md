@@ -65,3 +65,15 @@ You can sometimes directly copy paste from **ideasortasks_while_work.md**
 -
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Learning**
+
+-
+18/11/2024--> status|commit|push from terminal itself 
+git status (to check if any changes is there or not)
+git add file_name (if the file is not added to the repository)
+git add . (for the stages of changes made)
+git commit -m "you message to show up"
+git push
+
+-
