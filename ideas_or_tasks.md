@@ -75,5 +75,6 @@ git add file_name (if the file is not added to the repository)
 git add . (for the stages of changes made)
 git commit -m "you message to show up"
 git push
+for adding any new file also, do the same.
 
 -
