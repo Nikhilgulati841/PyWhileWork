@@ -12,7 +12,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 **Disclaimer 3-->** As soon as you have typed all your Slots, Display it also. So, 1<sup>st</sup> Table for Time Slot display & 2<sup>nd</sup> for Full Schedule Display.
 
-**Disclaimer 4-->** Make def functions for ias={tslots,full_schedule,update:(tslots,dt(defined tasks))} and then the name of the def function in the dictionary and ask the user, if the user wanted to add the timeslots, defined tasks, reminders|Help. Then call the action taken by the user as ias[update], ias[full_schedule]
+**Disclaimer 4-->** Make def functions for **ias={tslots,full_schedule,update:(tslots,dt(defined tasks)),delete-a slot (dt_data.drop(tslotslist[user_input_S.No-1]),rename}** and then the name of the def function in the dictionary and ask the user, if the user wanted to add the timeslots, defined tasks, reminders|Help. Then call the action taken by the user as ias[update], ias[full_schedule]
 
 **1-->**  df = df.rename(columns={'A': 'X', 'B': 'Y'}) or| df.rename(columns={'A': 'X'}, index={'X': 'W'}, inplace=True) or| df.index.name = 'Index_Name'
 
