@@ -21,7 +21,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 4--> Use data_dict={"Time Slots":[t1,t2,t3,...],"Defined Tasks":[d1,d2,d3....],"Reminders":[r1,r2,r3....]}
 
-**5-->** df = df.rename(columns={'A': 'X', 'B': 'Y'}) or df.rename(columns={'A': 'X'}, index={'X': 'W'}, inplace=True) 
+**5-->** df = df.rename(columns={'A': 'X', 'B': 'Y'}) or| df.rename(columns={'A': 'X'}, index={'X': 'W'}, inplace=True) or| df.index.name = 'Index_Name'
 
 **Second Normal approach** --> Typing in the schedule simply to the dictionary
 
