@@ -19,13 +19,13 @@ timelist=[]
 t=0
 #ask for the time slots till the user wanted to
 print("""Enter the time slots(as many as you want), 
-and when you wish to stop..!! taking anymore slots| **Type--> ok**\n""")
+and when you wish to stop..!! taking anymore slots| **Type--> ok in Small Letters**\n""")
+
 for i in range(1,21):
     if t!="ok":
-        t=input(f"Enter Slot:{i}")
-        # timelist.append({f"t{i}":t})
+        t=input(f"Enter Slot {i}:")
         timelist.append(t)
-    elif t=="ok":
+    elif t=="ok" or t=="Ok" or t=="OK":
         timelist.remove(timelist[-1])
         break
         
@@ -34,15 +34,15 @@ for i in range(1,21):
 #use the same list timelist as the list that needs to be provided under column "Slots"
 #this way you will not have to provide all t1,t2,t3,t... till the number of time slots it will ask from the user
 #by this you avoid using another for or while loop to enter n number of t...(n)
-data_tslots={"Slots  ":timelist
+dict_tslots={"T-Slots":timelist
     
 }
-#just to display the Slots
-tslots=pd.DataFrame(data_tslots)
-#By Default, index starts from 0, to add +1 in the index
-tslots.index=tslots.index+1
-print("\n",tslots)
 
+tslots=pd.DataFrame(dict_tslots)
+tslots.index=tslots.index+1
+tslots.index.name="S.No"
+# tslots.index.name="Slot Count"  # to update index name
+print("\nTime Slots Displaying...!!\n",tslots)
 
 
 # data_dict={"T-Slots":["@4:10 Am","@4:30 Am","@10:00 Am","@11:00 Am","@12:00 Pm",
