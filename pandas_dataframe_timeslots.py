@@ -1,4 +1,4 @@
-#understandings...
+#understandings... Finally done Pushing commit from codespace to git Repo
 # a=[]
 # a.append({"t1":"hello"})
 # print(a[0]["t1"])
@@ -9,13 +9,14 @@
 #     print(i)
 
 
+
 import pandas as pd
 from datetime import datetime 
 
 # a=datetime.now()
 # print(a)
 
-#Nikhil
+
 #ask for the time slots till the user wanted to
 print("""Enter the time slots(as many as you want), 
 Type--> ok | Stop taking anymore slots.\n""")
