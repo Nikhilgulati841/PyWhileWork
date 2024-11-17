@@ -12,6 +12,9 @@ did not want to stop using while or for loop, whichever suits you.
 
 **Disclaimer 3-->** As soon as you have typed all your Slots, Display it also. So, 1<sup>st</sup> Table for Time Slot display & 2<sup>nd</sup> for Full Schedule Display.
 
+**1-->**  df = df.rename(columns={'A': 'X', 'B': 'Y'}) or| df.rename(columns={'A': 'X'}, index={'X': 'W'}, inplace=True) or| df.index.name = 'Index_Name'
+
+
 -
 1--> Use User input to ask for **Time Slots** as t1,t2,t3... t7 or user input until user want's to stop
 
@@ -21,7 +24,6 @@ did not want to stop using while or for loop, whichever suits you.
 
 4--> Use data_dict={"Time Slots":[t1,t2,t3,...],"Defined Tasks":[d1,d2,d3....],"Reminders":[r1,r2,r3....]}
 
-**5-->** df = df.rename(columns={'A': 'X', 'B': 'Y'}) or| df.rename(columns={'A': 'X'}, index={'X': 'W'}, inplace=True) or| df.index.name = 'Index_Name'
 
 **Second Normal approach** --> Typing in the schedule simply to the dictionary
 
