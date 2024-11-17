@@ -15,7 +15,7 @@ from datetime import datetime
 # a=datetime.now()
 # print(a)
 
-
+#Nikhil
 #ask for the time slots till the user wanted to
 print("""Enter the time slots(as many as you want), 
 Type--> ok | Stop taking anymore slots.\n""")
