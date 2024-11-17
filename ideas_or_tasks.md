@@ -76,5 +76,6 @@ git add . (for the stages of changes made)
 git commit -m "you message to show up"
 git push
 for adding any new file also, do the same.
+git restore file_name (to restore the program before git push command)
 
 -
