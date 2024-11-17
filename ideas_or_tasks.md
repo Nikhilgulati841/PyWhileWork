@@ -47,7 +47,7 @@ get your **ideas_while_work.md** file copy paste in your **JFoldknewme.docx** fi
 You can sometimes directly copy paste from **ideasortasks_while_work.md**
 
 -
-1. Gather all your sources, that you access and work on. Make a **Linked Diagram** all. -stored PW -Daily Understanding docs -Programs saved -physical memory -Online memory -Git Memory(**Nikhilgulati841**) --Git Repositories for testing & Completed Projects | Programs (**_PyWhileWork_** & **JFoldknewme**) --daily ideas or tasks while Work(**ideasortasks_while_work.md**) *[Daily Understanding.docx & a Git file daily_understanding.md]*  In short, you have automated your task and include Mess Time Table also.  (0.5 hrs)
+1. **DONE** Gather all your sources, that you access and work on. Make a **Linked Diagram** all. -stored PW -Daily Understanding docs -Programs saved -physical memory -Online memory -Git Memory(**Nikhilgulati841**) --Git Repositories for testing & Completed Projects | Programs (**_PyWhileWork_** & **JFoldknewme**) --daily ideas or tasks while Work(**ideasortasks_while_work.md**) *[Daily Understanding.docx & a Git file daily_understanding.md]*  In short, you have automated your task and include Mess Time Table also.  (0.5 hrs)
 2. Work | Revise | Write the concepts of **FDD** and the changes needed (includes **study** Points & Display Daily Learnings in one individual Sheet) (1.5 hrs)
 3. Work | Revise | Write on **VDD** (1 hrs)
 4. Complete **pandas_dataframe_timeslots.py** (2.5 hrs)
