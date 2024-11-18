@@ -18,7 +18,7 @@ from datetime import datetime
 
 
 #ask for the time slots till the user wanted to
-print("""Enter the time slots(as many as you want), 
+print("""\nEnter the time slots(as many as you want), 
 Type--> ok | Stop taking anymore slots.\n""")
 # print("""\nFor the spare time, If you do the task in less time.
 # Remember Not to rest | As the TIME LEFT is the TIME you GAINED.
@@ -28,20 +28,20 @@ Type--> ok | Stop taking anymore slots.\n""")
 
 def tslots():
     global tslotslist
-    global dtlist
+    global dtlistupdate
     tslotslist=[]
-    dtlist=[]
+    dtlistupdate=[] #list just to give an input(update it.. in the Defined Tasks)
     t="a"
     print("Start Entering Time Slots..:\n")
     for i in range(1,31):
         if t.lower()!="ok":
-            t=input(f"Enter Slot {i}:")
+            t=input(f"Enter Slot {i}: ")
             tslotslist.append(t)
-            dtlist.append("Update it..")
+            dtlistupdate.append("Update it..")
 
         elif t.lower()=="ok":
             tslotslist.remove(tslotslist[-1])
-            dtlist.remove(dtlist[-1])
+            dtlistupdate.remove(dtlistupdate[-1])
             break
 
     # print(timelist)
@@ -49,7 +49,7 @@ def tslots():
     #use the same list timelist as the list that needs to be provided under column "Slots"
     #this way you will not have to provide all t1,t2,t3,t... till the number of time slots it will ask from the user
     #by this you avoid using another for or while loop to enter n number of t...(n)
-    tslots_dict={"T-Slots":tslotslist,"Define Tasks":dtlist
+    tslots_dict={"T-Slots":tslotslist,"Define Tasks":dtlistupdate
         
     }
     
@@ -63,12 +63,20 @@ def tslots():
 
 def full_schedule():
     #Now asking for the TASKS for each T-Slots
+    # global dtlist
     dt="a"
-    for i in range(len(tslotslist)):
-        dt=input(f"Enter the Defined Task for {tslotslist[i]}:")
-        dtlist[i]=dt
+    # dtlist=[]
+    help_list=[]  #instead of Dictionary USED List for updating Defined Tasks and Help
+    for i in range(len(tslotslist)):  #make tslotslist & dtlist etc.. global to access that variable inside any of the function 
+        dt=input(f"Enter the Defined Task for {tslotslist[i]}: ")   #dt=> dtlist.keys() as Defined Tasks
+        reminder_help=input(f"Enter the Help for {tslotslist[i]} Defined Tasks: ") #help_reminder=> dtlist.values() as **
+        dtlistupdate[i]=dt
+        help_list.append(reminder_help)
+        # help_list[i]=reminder_help
+    # print(dtlist)
         
-    dt_dict={"T-Slots":tslotslist,"***Tasks***":dtlist
+    dt_dict={"T-Slots":tslotslist,"***Defined Tasks***":dtlistupdate,"***HELP***":help_list  
+             #when USE Dictionary as dtlist={} then ***Defined Task***:dtlist.keys() & ***Help***:dtlist.values()
         
     }
     
@@ -78,11 +86,15 @@ def full_schedule():
     print("\n")
     print("Schedule Displaying...!!")
     print(dtdata)
+
+    dtdata.to_excel('output.xlsx', index=True)
      
     
     
 tslots()
 full_schedule() 
+
+
 
 
 # data_dict={"T-Slots":["@4:10 Am","@4:30 Am","@10:00 Am","@11:00 Am","@12:00 Pm",
