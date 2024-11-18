@@ -88,8 +88,9 @@ def full_schedule():
     print("Schedule Displaying...!!")
     print(dtdata)
 
-    dtdata.to_excel('output2.xlsx', index=True)   
-    
+    dtdata.to_excel('output2.xlsx', index=True)   #output.xlsx for the same file to update it
+    #output2.xlsx or output(date).xlsx for the new file for the updated one. 
+    #updating existing and a new file
         
     
     
