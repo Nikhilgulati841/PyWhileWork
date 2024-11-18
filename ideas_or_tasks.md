@@ -66,7 +66,7 @@ You can sometimes directly copy paste from **ideasortasks_while_work.md**
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Learning**
+**GitHub Learning**
 
 -
 18/11/2024--> status|commit|push from terminal itself 
