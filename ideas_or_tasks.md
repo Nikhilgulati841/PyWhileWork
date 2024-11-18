@@ -88,6 +88,12 @@ git commit -m "you message to show up"
 git push
 for adding any new file also, do the same.
 git restore file_name (to restore the program before git push command)
-if 
+
+if getting error while git push, 
+use--> git fetch origin 
+git status | git merge origin/main
+git add <file name and so on..>
+git push origin main | git push origin main --force (if you are absolutely certain that you won't lose important changes that might be present on the remote branch. )
+
 
 -
