@@ -13,6 +13,7 @@
 import pandas as pd
 from datetime import datetime 
 
+
 # a=datetime.now()
 # print(a)
 
@@ -87,8 +88,9 @@ def full_schedule():
     print("Schedule Displaying...!!")
     print(dtdata)
 
-    dtdata.to_excel('output.xlsx', index=True)
-     
+    dtdata.to_excel('output2.xlsx', index=True)   
+    
+        
     
     
 tslots()
