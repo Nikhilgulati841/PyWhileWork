@@ -97,6 +97,8 @@ def full_schedule():
 #see the changes now.
 # again2 changes try
 # again3 changes try
+# again4 to see
+#  git pull, git pull origin main, git fetch origin, git log origin/main, git merge origin/main 
 
     
 tslots()
