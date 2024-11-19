@@ -101,6 +101,7 @@ def full_schedule():
 #  git pull, git pull origin main, git fetch origin, git log origin/main, git merge origin/main 
 # try 5
 # try 6
+#pushing from remote to local learned: try7
 
     
 tslots()
