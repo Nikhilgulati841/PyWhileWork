@@ -62,6 +62,7 @@ def tslots():
     print("\n")    
 
 
+
 def full_schedule():
     #Now asking for the TASKS for each T-Slots
     # global dtlist
@@ -88,7 +89,7 @@ def full_schedule():
     print("Schedule Displaying...!!")
     print(dtdata)
 
-    dtdata.to_excel('output2.xlsx', index=True)   #output.xlsx for the same file to update it
+    dtdata.to_excel('local1.xlsx', index=True)   #output.xlsx for the same file to update it
     #output2.xlsx or updated(date).xlsx for the new file for the updated one. 
     #updating existing and a new file
         
