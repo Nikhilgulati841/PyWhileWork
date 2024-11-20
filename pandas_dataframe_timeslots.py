@@ -102,6 +102,7 @@ def full_schedule():
 # try 5
 # try 6
 #pushing from remote to local learned: try7
+#Nikhil
 
     
 tslots()
