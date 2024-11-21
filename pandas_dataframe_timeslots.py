@@ -89,7 +89,7 @@ def full_schedule():
     print("Schedule Displaying...!!")
     print(dtdata)
 
-    dtdata.to_excel('check from git_vscode-github_repo-local_vscode.xlsx', index=True)   #output.xlsx for the same file to update it
+    # dtdata.to_excel('check from git_vscode-github_repo-local_vscode.xlsx', index=True)   #output.xlsx for the same file to update it
     #output2.xlsx or updated(date).xlsx for the new file for the updated one. 
     #updating existing and a new file
         
