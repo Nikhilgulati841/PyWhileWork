@@ -43,6 +43,10 @@ did not want to stop using while or for loop, whichever suits you.
 **Second Normal approach** --> Typing in the schedule simply to the dictionary
 
 
+**FINAL APPROACH-->** 
+1. a list 
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **NOT DONE**
 
@@ -75,25 +79,4 @@ You can sometimes directly copy paste from **ideasortasks_while_work.md**
 
 -
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-**GitHub Learning**
-
--
-18/11/2024--> status|commit|push from terminal itself 
-git status (to check if any changes is there or not)
-git add file_name (if the file is not added to the repository)
-git add . (for the stages of changes made)
-git commit -m "you message to show up"
-git push
-for adding any new file also, do the same.
-git restore file_name (to restore the program before git push command)
-
-if getting error while git push, 
-use--> git fetch origin 
-git status | git merge origin/main
-git add <file name and so on..>
-git push origin main | git push origin main --force (if you are absolutely certain that you won't lose important changes that might be present on the remote branch. )
-
-
--
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
