@@ -42,6 +42,7 @@ did not want to stop using while or for loop, whichever suits you.
 3. Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
 4. Display, listname means using list name and not the values, display the full schedule.
 5. Make a new function, (update_full_schedule).
+6. 
 
 ---
 
