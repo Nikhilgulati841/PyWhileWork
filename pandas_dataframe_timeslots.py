@@ -30,6 +30,7 @@ Type--> ok | Stop taking anymore slots.\n""")
 def tslots():
     global tslotlist
     global dtlist
+    global tslots
     tslotlist=[]
     dtlist=[] #list just to give an input(update it.. in the Defined Tasks)
     t="a"
@@ -58,19 +59,18 @@ def tslots():
     # tslots.index.name="Slot Count"  # to update index name
     print("\nTime Slots Displaying...!!\n",tslots)
     print("\n")    
-    print(tslotlist)
+    # print(tslotlist)
 
 
 
 def full_schedule():
     #Now asking for the TASKS for each T-Slots
-   global dt_dict
-
+    global dt_dict
     dt="a"
     help_list=[]  #instead of Dictionary USED List for updating Defined Tasks and Help
     for i in range(len(tslotlist)):  #make tslotslist & dtlist etc.. global to access that variable inside any of the function 
-        dt=input(f"Enter Defined Task - @[{tslotlist[i]}]: ")   #dt=> dtlist.keys() as Defined Tasks
-        reminder_help=input(f"Enter Help - @[{tslotlist[i]}] for [{dt}]]: ") #help_reminder=> dtlist.values() as **
+        dt=input(f"Enter Defined Task - [@{tslotlist[i]}]: ")   #dt=> dtlist.keys() as Defined Tasks
+        reminder_help=input(f"Enter Help - [@{tslotlist[i]}] for [{dt}]]: ") #help_reminder=> dtlist.values() as **
         dtlist[i]=dt
         help_list.append(reminder_help)
         # help_list[i]=reminder_help
@@ -93,30 +93,23 @@ def full_schedule():
     #updating existing and a new file
 
 def update_full_schedule():
-    
-#     a=["4:10 am","4:30 am","10:00 am"]
-# dtlist=["Hello","Hi","Bye"]
-
-
-
-
-while True:    
-    t=input("Enter, which T-Slot to update: ")
-    if t.lower() in tslotlist:
-        dt=input("Enter Defined Task that : ")
-        dtlist[tslotlist.index(t.lower())]=dt
+    while True:    
+        t=input("\nEnter, which T-Slot to update: ")
+        if t.lower() in tslotlist:
+            dt=input("\nEnter Defined Task that : ")
+            dtlist[tslotlist.index(t.lower())]=dt
+            
+        elif t.lower() not in tslotlist:
+            print(f"[{t}] T-slot is not there..Please choose the slots present")
+            print("\nType Stop to stop taking updates.")
+            print(f"***Please check the Schedule***\n {pd.DataFrame(dt_dict)}")
         
-    elif t.lower() not in a:
-        print(f"[{t}] T-slot is not there..Please choose the slots present")
-        print("\nType Stop to stop taking updates.")
-        print(f"***Please check the Schedule***\n {}")
-    
-    if t.lower()=="stop":
-        print("Updates Stopped")
-        break
+        if t.lower()=="stop":
+            print("Updates Stopped")
+            break
     
 
-print(dtlist)
+# print(dtlist)
 
 
 #changes from local to remote
@@ -127,6 +120,9 @@ print(dtlist)
     
 tslots()
 full_schedule() 
+
+update_full_schedule()
+
 
 
 
