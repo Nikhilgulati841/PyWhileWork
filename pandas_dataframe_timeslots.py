@@ -28,21 +28,19 @@ Type--> ok | Stop taking anymore slots.\n""")
 # print("===================================================\n")
 
 def tslots():
-    global tslotslist
-    global dtlistupdate
-    tslotslist=[]
-    dtlistupdate=[] #list just to give an input(update it.. in the Defined Tasks)
+    global tslotlist
+    global dtlist
+    tslotlist=[]
+    dtlist=[] #list just to give an input(update it.. in the Defined Tasks)
     t="a"
     print("Start Entering Time Slots..:\n")
     for i in range(1,31):
+        t=input(f"Enter Slot {i}: ")
         if t.lower()!="ok":
-            t=input(f"Enter Slot {i}: ")
-            tslotslist.append(t)
-            dtlistupdate.append("Update it..")
+            tslotlist.append(t)
+            dtlist.append("Update it..")
 
         elif t.lower()=="ok":
-            tslotslist.remove(tslotslist[-1])
-            dtlistupdate.remove(dtlistupdate[-1])
             break
 
     # print(timelist)
@@ -50,7 +48,7 @@ def tslots():
     #use the same list timelist as the list that needs to be provided under column "Slots"
     #this way you will not have to provide all t1,t2,t3,t... till the number of time slots it will ask from the user
     #by this you avoid using another for or while loop to enter n number of t...(n)
-    tslots_dict={"T-Slots":tslotslist,"Define Tasks":dtlistupdate
+    tslots_dict={"T-Slots":tslotlist,"Define Tasks":dtlist
         
     }
     
@@ -60,24 +58,25 @@ def tslots():
     # tslots.index.name="Slot Count"  # to update index name
     print("\nTime Slots Displaying...!!\n",tslots)
     print("\n")    
+    print(tslotlist)
 
 
 
 def full_schedule():
     #Now asking for the TASKS for each T-Slots
-    # global dtlist
+   global dt_dict
+
     dt="a"
-    # dtlist=[]
     help_list=[]  #instead of Dictionary USED List for updating Defined Tasks and Help
-    for i in range(len(tslotslist)):  #make tslotslist & dtlist etc.. global to access that variable inside any of the function 
-        dt=input(f"Enter the Defined Task for {tslotslist[i]}: ")   #dt=> dtlist.keys() as Defined Tasks
-        reminder_help=input(f"Enter the Help for {tslotslist[i]} Defined Tasks: ") #help_reminder=> dtlist.values() as **
-        dtlistupdate[i]=dt
+    for i in range(len(tslotlist)):  #make tslotslist & dtlist etc.. global to access that variable inside any of the function 
+        dt=input(f"Enter Defined Task - @[{tslotlist[i]}]: ")   #dt=> dtlist.keys() as Defined Tasks
+        reminder_help=input(f"Enter Help - @[{tslotlist[i]}] for [{dt}]]: ") #help_reminder=> dtlist.values() as **
+        dtlist[i]=dt
         help_list.append(reminder_help)
         # help_list[i]=reminder_help
     # print(dtlist)
         
-    dt_dict={"T-Slots":tslotslist,"***Defined Tasks***":dtlistupdate,"***HELP***":help_list  
+    dt_dict={"T-Slots":tslotlist,"***Defined Tasks***":dtlist,"***HELP***":help_list  
              #when USE Dictionary as dtlist={} then ***Defined Task***:dtlist.keys() & ***Help***:dtlist.values()
         
     }
@@ -92,7 +91,33 @@ def full_schedule():
     # dtdata.to_excel('check from git_vscode-github_repo-local_vscode.xlsx', index=True)   #output.xlsx for the same file to update it
     #output2.xlsx or updated(date).xlsx for the new file for the updated one. 
     #updating existing and a new file
+
+def update_full_schedule():
+    
+#     a=["4:10 am","4:30 am","10:00 am"]
+# dtlist=["Hello","Hi","Bye"]
+
+
+
+
+while True:    
+    t=input("Enter, which T-Slot to update: ")
+    if t.lower() in tslotlist:
+        dt=input("Enter Defined Task that : ")
+        dtlist[tslotlist.index(t.lower())]=dt
         
+    elif t.lower() not in a:
+        print(f"[{t}] T-slot is not there..Please choose the slots present")
+        print("\nType Stop to stop taking updates.")
+        print(f"***Please check the Schedule***\n {}")
+    
+    if t.lower()=="stop":
+        print("Updates Stopped")
+        break
+    
+
+print(dtlist)
+
 
 #changes from local to remote
 #changes from remote to repo and then to pulled local(Nikhil)
