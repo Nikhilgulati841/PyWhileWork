@@ -95,7 +95,7 @@ def full_schedule():
         
 
 #changes from local to remote
-
+#changes from remote to repo and then to pulled local
     
 tslots()
 full_schedule() 
