@@ -96,7 +96,7 @@ def full_schedule():
 
 #changes from local to remote
 #changes from remote to repo and then to pulled local
-#adding branch Nikhil and updating this information there
+
     
 tslots()
 full_schedule() 
