@@ -10,8 +10,10 @@
 
 
 
+from openpyxl import Workbook, load_workbook
 import pandas as pd
-from datetime import datetime 
+import datetime 
+import os
 
 
 # a=datetime.now()
@@ -19,13 +21,17 @@ from datetime import datetime
 
 
 #ask for the time slots till the user wanted to
-print("""\nEnter the time slots(as many as you want), 
-Type--> ok | Stop taking anymore slots.\n""")
 # print("""\nFor the spare time, If you do the task in less time.
 # Remember Not to rest | As the TIME LEFT is the TIME you GAINED.
 # So, Either do the Next Task or Increase your Productivity.
 # Study | Take Break | Meditate | Pull-ups | Push-ups""")
 # print("===================================================\n")
+print("""Type--> New | To Enter new Schedule Type.
+Type--> Update | To update the current Schedule.
+Type--> Delete | To delete a Time Slot from current Schedule
+Type--> Add    | To add a Time Slot to current Schedule.\n""")
+
+
 
 def tslots():
     global tslotlist
@@ -35,13 +41,14 @@ def tslots():
     dtlist=[] #list just to give an input(update it.. in the Defined Tasks)
     t="a"
     print("Start Entering Time Slots..:\n")
+    print("Type--> Stop | Stop taking anymore slots.")
     for i in range(1,31):
         t=input(f"Enter Slot {i}: ")
-        if t.lower()!="ok":
+        if t.lower()!="stop":
             tslotlist.append(t)
             dtlist.append("Update it..")
 
-        elif t.lower()=="ok":
+        elif t.lower()=="stop":
             break
 
     # print(timelist)
@@ -66,6 +73,7 @@ def tslots():
 def full_schedule():
     #Now asking for the TASKS for each T-Slots
     global dt_dict
+    global dtdata
     dt="a"
     help_list=[]  #instead of Dictionary USED List for updating Defined Tasks and Help
     for i in range(len(tslotlist)):  #make tslotslist & dtlist etc.. global to access that variable inside any of the function 
@@ -88,7 +96,24 @@ def full_schedule():
     print("Schedule Displaying...!!")
     print(dtdata)
 
-    # dtdata.to_excel('check from git_vscode-github_repo-local_vscode.xlsx', index=True)   #output.xlsx for the same file to update it
+    # Define the folder where you want to save the file
+    folder_path = 'schedule'
+
+    # Create the directory if it does not exist
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    # Define the full path for the Excel file
+    file_path = os.path.join(folder_path, 'NewSchedule(Date).xlsx')
+
+    sheet_name = f"Data_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+
+    # Ensuring to append without overwriting existing sheets
+    
+
+    print(f"DataFrame has been written to {file_path}")
+
+    # dtdata.to_excel('\New Schedule(22/11/2024).xlsx', index=True)   #output.xlsx for the same file to update it
     #output2.xlsx or updated(date).xlsx for the new file for the updated one. 
     #updating existing and a new file
 
@@ -107,6 +132,26 @@ def update_full_schedule():
         if t.lower()=="stop":
             print("Updates Stopped")
             break
+    
+    dtdata=pd.DataFrame(dt_dict)
+    dtdata.index+=1
+    dtdata.index.name="S.No"
+    print("\n")
+    print("Schedule Displaying...!!")
+    print(dtdata)
+    folder_path = 'schedule'
+
+    # Create the directory if it does not exist
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    # Define the full path for the Excel file
+    file_path = os.path.join(folder_path, 'NewSchedule(Date).xlsx')
+
+    # Save the DataFrame to the specified Excel file
+    dtdata.to_excel(file_path, sheet_name='Date3', index=True)
+
+    print(f"DataFrame has been written to {file_path}")
     
 
 # print(dtlist)
