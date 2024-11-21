@@ -94,15 +94,7 @@ def full_schedule():
     #updating existing and a new file
         
 
-#see the changes now.
-# again2 changes try
-# again3 changes try
-# again4 to see
-#  git pull, git pull origin main, git fetch origin, git log origin/main, git merge origin/main 
-# try 5
-# try 6
-#pushing from remote to local learned: try7
-#Nikhil
+#changes from local to remote
 
     
 tslots()
