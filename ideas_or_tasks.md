@@ -40,11 +40,17 @@ did not want to stop using while or for loop, whichever suits you.
 **FINAL APPROACH-->**
 
 - [x] An Empty list to ask for timeslots, append the time slot in it.
-2. For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
-3. Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
-4. Display, listname means using list name and not the values, display the full schedule.
-5. Make a new function, (update_full_schedule).
-6. 
+- [x] For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
+- [x] Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
+- [x] Display, listname means using list name and not the values, display the full schedule.
+- [x] Make a new function, (update_full_schedule).
+- [ ] Make all the functions for (Add|Delete|)
+- [ ] Make Choices with the fucntions name.
+- [ ] Make a major choice which asks for the New Schedule & Update current Schedule.
+- [ ] Add date time for the file to save with.
+- [ ] Keep all the current Schedules and while updating Two options (Update to the same Sheet:Same name will help | New Sheet:New Name)
+- [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file) 
+  
 
 ---
 
