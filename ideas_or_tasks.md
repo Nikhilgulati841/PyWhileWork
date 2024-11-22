@@ -1,3 +1,5 @@
+                            **Ideas and Tasks**
+
 VDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml
 
 FDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pubhtml
@@ -37,7 +39,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 **FINAL APPROACH-->**
 
-1. An Empty list to ask for timeslots, append the time slot in it.
+[1]. An Empty list to ask for timeslots, append the time slot in it.
 2. For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
 3. Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
 4. Display, listname means using list name and not the values, display the full schedule.
@@ -67,7 +69,7 @@ get your **ideas_while_work.md** file copy paste in your **JFoldknewme.docx** fi
 ---
 
 **NOT DONE** Tasks of the DAY **(16/11/2024)**
-You can sometimes directly copy paste from **ideasortasks_while_work.md**
+You can sometimes directly copy paste from **ideas_or_tasks.md**
 
 1. **DONE** Gather all your sources, that you access and work on. Make a **Linked Diagram** all. -stored PW -Daily Understanding docs -Programs saved -physical memory -Online memory -Git Memory(**Nikhilgulati841**) --Git Repositories for testing & Completed Projects | Programs (**_PyWhileWork_** & **JFoldknewme**) --daily ideas or tasks while Work(**ideasortasks_while_work.md**) *[Daily Understanding.docx & a Git file daily_understanding.md]*  In short, you have automated your task and include Mess Time Table also.  (0.5 hrs)
 2. Work | Revise | Write the concepts of **FDD** and the changes needed (includes **study** Points & Display Daily Learnings in one individual Sheet) (1.5 hrs)
