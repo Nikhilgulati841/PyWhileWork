@@ -31,7 +31,6 @@ Type--> Update | To update the current Schedule.
 Type--> Delete | To delete a Time Slot from current Schedule
 Type--> Add    | To add a Time Slot to current Schedule.\n""")
 
-hello
 
 
 
