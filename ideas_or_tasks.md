@@ -39,7 +39,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 **FINAL APPROACH-->**
 
-[1]. An Empty list to ask for timeslots, append the time slot in it.
+- [x] An Empty list to ask for timeslots, append the time slot in it.
 2. For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
 3. Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
 4. Display, listname means using list name and not the values, display the full schedule.
