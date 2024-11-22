@@ -1,4 +1,27 @@
-                            **Ideas and Tasks**
+    **Ideas and Tasks**
+
+You were my fav person, you still is my fav person that I wanted always to go back with.
+but it feels like I was placed on a 1000 degree fire, that too without my will.
+No matter what I do, I do not have a choice to jump out of it, I will have to stand still on that fire.The way you disconnects with me, and the way you treated me, like I was not one to you.
+The way you placed a big Bar between us
+I tried a lot to break that bar, but every time I tried, I fall off from that, and got hurt the same way as I was when you decided to leave.I wasn't able to bear those major bruises till now and how much more time it will take, I don't know.
+Seeing, how easily you forgets all the goods and the feelings that I had for you and decided never to have a life with me and giving a thought of getting arranged after some time.. Within 3 months you are so much over me that you can think this way.While you can think of these things but I am still suffering and dealing with lots and lots of things to get over you, but I am not able to. I guess you will never understand with how much I am going through everyday and what happens to me when you come up to my mind, without my will and knowing that you are not around and you will never be. I think you will always be in my head and gives me lots and lots of pain but you will never give me a chance, your zombie a chance to WIN you back.I think, the way you left me alone when I needed you the most, you should leave me alone again and let me go through all the pain and with your thoughts coming to my mind with a speed of 100 kmph 24 hrs all days a week, month or maybe a year. Which I am not able to bear.
+Sometimes, I think, this is too much to deal with all the things I am going through,then again a thought came up,
+that No one Stood by my side, when I was falling apart and no one will ever.
+So, I guess I will see If I standalone or fall apart
+but I will walking alone is the only option I see here now.
+As I have already reached multiple times seeking for a person that will always be with me but then I fail again.So, I am tired of trying now...I think, the way you left me alone earlier:-Pooja: Thook ke NAHI chathti mai,
+Pooja: Nikhil tera baat krne ka mann kar ra hai Mera NAHI,
+Pooja: Baar Baar call Kroge toh mai BLOCK kar dungi,
+Nikhil: please rukk jaao I NEED YOU
+Pooja: No, I don't need you, do whatever you wish but I am leaving.
+Pooja: Mujhe nhi rehena Tere saath
+Pooja: Vo Vibe NAHI aati Tere saath ab
+Pooja: Mujhe break chahiye (multiple times)
+NIKHIL asked: Haath pakad ke khada hu, I still need you. I will not be able to bear if you left.
+POOJA Replied: Haath patak/jhatak/chuda ke jaa ri hu, zabardasti hi shi but aakhir Kaar Haath chuda Liya hai.
+I don't need you, Mai Marna pasand karunga but tumhare Saath rehena bear nhi kar paaungi.It's time to leave me alone the same way, I will not bother anyone's life. As y'all didn't want me in your life at some point of your time. So, y'all will not see me around...
+
 
 VDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml
 
@@ -39,18 +62,17 @@ did not want to stop using while or for loop, whichever suits you.
 
 **FINAL APPROACH-->**
 
-- [x] An Empty list to ask for timeslots, append the time slot in it.
-- [x] For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
-- [x] Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
-- [x] Display, listname means using list name and not the values, display the full schedule.
-- [x] Make a new function, (update_full_schedule).
+- [X] An Empty list to ask for timeslots, append the time slot in it.
+- [X] For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
+- [X] Two new list for storing Defined Tasks and Help for that. Ask it using a loop as number of times as the number of timeslots (len(timeslots))
+- [X] Display, listname means using list name and not the values, display the full schedule.
+- [X] Make a new function, (update_full_schedule).
 - [ ] Make all the functions for (Add|Delete|)
 - [ ] Make Choices with the fucntions name.
 - [ ] Make a major choice which asks for the New Schedule & Update current Schedule.
 - [ ] Add date time for the file to save with.
 - [ ] Keep all the current Schedules and while updating Two options (Update to the same Sheet:Same name will help | New Sheet:New Name)
-- [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file) 
-  
+- [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file)
 
 ---
 
