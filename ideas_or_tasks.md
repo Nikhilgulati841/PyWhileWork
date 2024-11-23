@@ -63,6 +63,7 @@ did not want to stop using while or for loop, whichever suits you.
 - [ ] Add date time for the file to save with.
 - [ ] Keep all the current Schedules and while updating Two options (Update to the same Sheet:Same name will help | New Sheet:New Name will help)
 - [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file)
+- [ ] Read thge existing schedule with the name of the file and the sheet name, and ask the time slot of reaching back to room and change the schedule time slot with the same Defined tasks using loops to add the time according to the previous existing schedule.
 
 ---
 
