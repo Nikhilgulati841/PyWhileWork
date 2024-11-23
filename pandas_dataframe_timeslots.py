@@ -36,9 +36,11 @@ Type--> Add    | To add a Time Slot to current Schedule.\n""")
 
 def tslots():
     global tslotlist
+    global tslotlist_lower
     global dtlist
     global tslots
     tslotlist=[]
+    tslotlist_lower=[]
     dtlist=[] #list just to give an input(update it.. in the Defined Tasks)
     t="a"
     print("Start Entering Time Slots..:\n")
@@ -107,8 +109,9 @@ def full_schedule():
     # Define the full path for the Excel file
     file_path = os.path.join(folder_path, 'NewSchedule(Date).xlsx')
 
-    sheet_name = f"Data_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
-
+    # sheet_name = f"Data_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    # Save the DataFrame to the specified Excel file
+    dtdata.to_excel(file_path, sheet_name='Date1', index=True)
     # Ensuring to append without overwriting existing sheets
     
 
@@ -147,12 +150,19 @@ def update_full_schedule():
         os.makedirs(folder_path)
 
     # Define the full path for the Excel file
-    file_path = os.path.join(folder_path, 'NewSchedule(Date).xlsx')
+    file_path = os.path.join(folder_path, 'Updated(Date).xlsx')
 
     # Save the DataFrame to the specified Excel file
     dtdata.to_excel(file_path, sheet_name='Date3', index=True)
 
     print(f"DataFrame has been written to {file_path}")
+
+def delete():
+    print("\nReview the existing data and select which time slot to delete",pd.DataFrame(dt_dict))
+    ask_delete=input("\nEnter the time slot that you wish to delete: ")
+    dtdata=dtdata.drop(1)
+    print(f"Deleted T-Slot :{ask_delete}\n")
+    print(dtdata)          
     
 
 # print(dtlist)
@@ -168,6 +178,7 @@ tslots()
 full_schedule() 
 
 update_full_schedule()
+delete()
 
 
 
