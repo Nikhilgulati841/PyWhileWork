@@ -61,7 +61,7 @@ did not want to stop using while or for loop, whichever suits you.
 - [ ] Make Choices with the fucntions name.
 - [ ] Make a major choice which asks for the New Schedule & Update current Schedule.
 - [ ] Add date time for the file to save with.
-- [ ] Keep all the current Schedules and while updating Two options (Update to the same Sheet:Same name will help | New Sheet:New Name)
+- [ ] Keep all the current Schedules and while updating Two options (Update to the same Sheet:Same name will help | New Sheet:New Name will help)
 - [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file)
 
 ---
