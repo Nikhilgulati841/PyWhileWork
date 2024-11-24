@@ -122,6 +122,7 @@ def full_schedule():
     #updating existing and a new file
 
 def update_full_schedule():
+    global dtdata
     while True:    
         t=input("\nEnter, which T-Slot to update: ")
         if t.lower() in tslotlist:
@@ -131,7 +132,8 @@ def update_full_schedule():
         elif t.lower() not in tslotlist:
             print(f"[{t}] T-slot is not there..Please choose the slots present")
             print("\nType Stop to stop taking updates.")
-            print(f"***Please check the Schedule***\n {pd.DataFrame(dt_dict)}")
+            print("***Please check the Schedule***\n")
+            print(dtdata)
         
         if t.lower()=="stop":
             print("Updates Stopped")
@@ -158,11 +160,15 @@ def update_full_schedule():
     print(f"DataFrame has been written to {file_path}")
 
 def delete():
-    print("\nReview the existing data and select which time slot to delete",pd.DataFrame(dt_dict))
+    global dtdata
+    print("\nReview the existing data and select which time slot to delete")
+    print(dtdata)
     ask_delete=input("\nEnter the time slot that you wish to delete: ")
-    dtdata=dtdata.drop(1)
+    delete=dtdata[dtdata['T-Slots'] != ask_delete]
     print(f"Deleted T-Slot :{ask_delete}\n")
-    print(dtdata)          
+    delete=delete.reset_index(drop=True)
+    delete.index+=1
+    print(delete)          
     
 
 # print(dtlist)
