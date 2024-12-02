@@ -1,5 +1,7 @@
     **Ideas and Tasks**
-**Time Schedule-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
+**VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
+
+**FDD edit-->** https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing
 
 **DSA Course Understanding-->** https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
 
