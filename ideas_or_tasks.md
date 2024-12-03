@@ -2,10 +2,12 @@
 
 ## Links
 <details>
-  <summary>File to easily editable</summary>
+  <summary><b>File to easily editable</b></summary>
   <I>Remotely Access & Edit understandings</I><br>
   <I>Access VDD & FDD Directly and downloadable file.</I>
 </details>
+
+*` private Personal `* Mind that | Do not modify or cpy this date
 
 ```
 **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
