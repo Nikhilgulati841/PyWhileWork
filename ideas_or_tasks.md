@@ -1,17 +1,11 @@
     **Ideas and Tasks**
+**VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
 
-- [ ] Sunday 24- Make the IAS(Implement Analyzed Schedule) App and its understandings with full implementation
-- [ ] Monday 25- Get the revision started already please...try to get off the patterns area.
-- [ ] Tuesday 26- Get your two apps and other apps revised. Try locate it under one understandings.
-- [ ] Wednesday 27- Get the left of the revision and move on to the left part and advanced part of the codewith harry
-- [ ] Thursday 28- Get all the revision done for the above mentioned ones with GitHub & rest revision, apps revision or rest apps.
-- [ ] Friday 29-
-- [ ] Saturday 30-
-- [ ] Sunday 1-
-- [ ] Monday 2-
-- [ ] Tuesday 3- Tutedude,nikhilg8687@gmail.coim,Tutedude@account$1999 - Control Structures In Python / Exception Handling & File Handling In Python
-- [ ] Wednesday 4- More in Tutedude. 
+**FDD edit-->** https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing
 
+**DSA Course Understanding-->** https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
+
+**Daily Understandings-->** https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
 
 VDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml
 
