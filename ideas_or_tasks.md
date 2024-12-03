@@ -1,6 +1,11 @@
 <h1 align=center>Ideas and Tasks</h1>   
 
 ## Links
+<details>
+  <summary>File to easily editable</summary>
+  <I>Remotely Access & Edit understandings</I><br>
+  <I>Access VDD & FDD Directly and downloadable file.</I>
+</details>
 
 ```
 **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
@@ -78,22 +83,3 @@ use the CSV or xlsx file to retrieve the data from it and use it in python using
 
 Get the wifi names and the passwords for all the wifi connected to the laptop using python
 
----
-
-**NOT DONE**
-
-get your **ideas_while_work.md** file copy paste in your **JFoldknewme.docx** file saved in Drive and see what happens.
-
----
-
-**NOT DONE** Tasks of the DAY **(16/11/2024)**
-You can sometimes directly copy paste from **ideas_or_tasks.md**
-
-1. **DONE** Gather all your sources, that you access and work on. Make a **Linked Diagram** all. -stored PW -Daily Understanding docs -Programs saved -physical memory -Online memory -Git Memory(**Nikhilgulati841**) --Git Repositories for testing & Completed Projects | Programs (**_PyWhileWork_** & **JFoldknewme**) --daily ideas or tasks while Work(**ideasortasks_while_work.md**) *[Daily Understanding.docx & a Git file daily_understanding.md]*  In short, you have automated your task and include Mess Time Table also.  (0.5 hrs)
-2. Work | Revise | Write the concepts of **FDD** and the changes needed (includes **study** Points & Display Daily Learnings in one individual Sheet) (1.5 hrs)
-3. Work | Revise | Write on **VDD** (1 hrs)
-4. Complete **pandas_dataframe_timeslots.py** (2.5 hrs)
-5. **Revision** of all you have done. (1 hrs)
-6. Name your APP for pandas_dataframe_timeslots.py (**IAS**--> Implement Analyzed Schedule) **IAS.exe**
-
----
