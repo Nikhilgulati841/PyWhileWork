@@ -1,4 +1,8 @@
-    **Ideas and Tasks**
+<h1 align=center>Ideas and Tasks</h1>   
+
+## Links
+
+```
 **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
 
 **FDD edit-->** https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing
@@ -16,8 +20,9 @@ FDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndM
 FDD Form--> https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform
 
 VDD Form--> https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-X8p5Gm5pXJRyq0TbXdZTwQ/viewform
+```
 
-**NOT DONE**
+## NOT DONE
 
 In **pandas_dataframe_timeslots.py**
 
@@ -59,9 +64,9 @@ did not want to stop using while or for loop, whichever suits you.
 - [ ] Try .csv or .xlsx file to access or to update DataFrames into the .csv file, so to access it later. (If not getting the options to Save New & Update the Current file)
 - [ ] Read thge existing schedule with the name of the file and the sheet name, and ask the time slot of reaching back to room and change the schedule time slot with the same Defined tasks using loops to add the time according to the previous existing schedule.
 
----
 
-**NOT DONE**
+
+## Not Done
 
 In **A New File of Python**
 
