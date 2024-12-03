@@ -10,6 +10,8 @@
 *` private Personal `* Mind that | Do not modify or cpy this date
 
 ```
+**OneNotes-->** https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ
+
 **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
 
 **FDD edit-->** https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing
