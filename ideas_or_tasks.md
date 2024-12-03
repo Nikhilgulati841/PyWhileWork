@@ -30,7 +30,7 @@ VDD Form--> https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-
 ```
 
 ## NOT DONE
-
+```
 In **pandas_dataframe_timeslots.py**
 
 **Disclaimer 1-->** Ask for time slots and ask 7 or till user
@@ -55,8 +55,8 @@ did not want to stop using while or for loop, whichever suits you.
 4--> Use data_dict={"Time Slots":[t1,t2,t3,...],"Defined Tasks":[d1,d2,d3....],"Reminders":[r1,r2,r3....]}
 
 **Second Normal approach** --> Typing in the schedule simply to the dictionary
-
-**FINAL APPROACH-->**
+```
+## FINAL APPROACH-->
 
 - [X] An Empty list to ask for timeslots, append the time slot in it.
 - [X] For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
