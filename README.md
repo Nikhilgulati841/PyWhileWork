@@ -1,5 +1,21 @@
 <h1 align=center>Ideas and Tasks</h1>   
 
+
+ `-quote-` 
+<details>
+  <summary>Karte ja tu bandeya</summary>
+  <br>Karte ja tu bandeya,
+  <br>Jab tak teri na ho fateh,
+  <br>Na rakh uspe koi shikan,
+  <br>chahe ho Fateh, ya Marjaaye karte fateh.<br>
+  <br>Chadha le bulandiyon ke nashe,
+  <br>rakh hausla Teri hogi fateh,
+  <br>fir na rukna kahin tu bin pohoche vahan,
+  <br>fir agar rukna hi hai, toh krna mat tum bulandiyon ke nashe,
+  <br>pr agr chadh hi Chuka hai suroor junoon ka,
+  <br>toh nikal ja lad ja fir tu kar ja fateh.
+</details>
+
 ## Links
 <details>
   <summary><b>File to easily editable</b></summary>
