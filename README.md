@@ -46,8 +46,8 @@
  <ol>
   <li><a href="https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">Daily Understandings</a></li>
   <li><a href="https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">DSA Course Understandings</a></li>
-  <li><a href="dsa_ppp_understandings.docx">DSA & Platforms Practice Problems Understandings</a></li>
-  <li><a href="python_all_understandings.docx">Python All Understandings</li>
+  <li><a href="https://docs.google.com/document/d/1fae8Oup7dCE64EHe1Q1TdkEQtou7CL0l/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">DSA & Platforms Practice Problems Understandings</a></li>
+  <li><a href="https://docs.google.com/document/d/1fgUV65OIkiZV4YrvbXJ0N9BrCj4vuchg/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">Python All Understandings</li>
   <li><a href="https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ">Draw Notes</a></li>
  </ol>
 </details>
