@@ -17,37 +17,44 @@
 </details>
 
 ## Links
+
+*` private`* &copy; Nikhil Gulati | Do not Modify or Copy any of the below data..!
 <details>
-  <summary><b>File to easily editable</b></summary>
-  <I>Remotely Access & Edit understandings</I><br>
-  <I>Access VDD & FDD Directly and downloadable file.</I>
+  <summary><b>FDD</b></summary>
+  <ul>
+   <li>Edit- https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing</li>
+   <li>Form- https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform</li>
+   <li>Downloadable- https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pubhtml</li>
+  </ul>
+
+ <summary><b>VDD</b></summary>
+ <ul>
+  <li>Edit==> https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk</li>
+  <li>Form==> https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-X8p5Gm5pXJRyq0TbXdZTwQ/viewform</li>
+  <li>Remote- https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml</li>
+ </ul>
 </details>
 
-*` private Personal `* Mind that | Do not modify or cpy this date
 
 ```
 **OneNotes-->** https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ
 
-**VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
+`private` **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
 
-**FDD edit-->** https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing
+
 
 **DSA Course Understanding-->** https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
 
 **Daily Understandings-->** https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
 
-VDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml
 
-FDD--> https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pubhtml
+
 
 **change the --> pub?output=ods** | xlsx | pdf | csv
 
-FDD Form--> https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform
-
-VDD Form--> https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-X8p5Gm5pXJRyq0TbXdZTwQ/viewform
 ```
 
-## NOT DONE
+## TimeSlot program
 ```
 In **pandas_dataframe_timeslots.py**
 
