@@ -1,7 +1,7 @@
 <h1 align=center>Ideas and Tasks</h1>   
 
 
- `-quote-` 
+ `-quote` 
 <details>
   <summary>Karte ja tu bandeya</summary>
   <br>Karte ja tu bandeya,
@@ -21,38 +21,39 @@
 *` private`* &copy; Nikhil Gulati | Do not Modify or Copy any of the below data..!
 <details>
   <summary><b>FDD</b></summary>
+ 
+   `web version` pubhtml <br>
+   `download version` pub?output=xlsx|ods|pdf|csv|etc...
   <ul>
-   <li>Edit- https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing</li>
-   <li>Form- https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform</li>
-   <li>Downloadable- https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pubhtml</li>
+   <li><a href="https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing">View | Edit</a></li>
+   <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform">Fill the form</a></li>
+   <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pub?output=xlsx">Download it</li>
   </ul>
-
- <summary><b>VDD</b></summary>
- <ul>
-  <li>Edit==> https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk</li>
-  <li>Form==> https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-X8p5Gm5pXJRyq0TbXdZTwQ/viewform</li>
-  <li>Remote- https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml</li>
- </ul>
 </details>
+<details>
+ <summary><b>VDD</b></summary>
 
+  `web version` pubhtml<br>
+ `download version` pub?output=xlsx|ods|pdf|csv|etc...
+  <ul>
+  <li><a href="https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk">View | Edit</a></li>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSca6Ok8MQcxZNkPp0EDLdhxe9c-X8p5Gm5pXJRyq0TbXdZTwQ/viewform">Fill the form</a></li>
+  <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxRfVUILLq1Ei6hhBGpNr2ERhRpJaZRjLIvN1swPsXP37w6dZA7euDOkPuzjaguCUwrrP8oTZxQBbL/pubhtml">Download it</a></li>
+  </ul>
+</details>
+<details>
+ <summary><b>Docs</b></summary>
+ <ol>
+  <li><a href="https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">Daily Understandings</a></li>
+  <li><a href="https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true">DSA Course Understandings</a></li>
+  <li><a href="dsa_ppp_understandings.docx">DSA & Platforms Practice Problems Understandings</a></li>
+  <li><a href="python_all_understandings.docx">Python All Understandings</li>
+  <li><a href="https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ">Draw Notes</a></li>
+ </ol>
+</details>
+   
+[comment]: # 
 
-```
-**OneNotes-->** https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ
-
-`private` **VDD edit-->** https://docs.google.com/spreadsheets/d/1NPq_5cuFRDThXJXZ4-JIx_16YuWSKhH_ok0S__H6rzw/edit?usp=drivesdk
-
-
-
-**DSA Course Understanding-->** https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
-
-**Daily Understandings-->** https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true
-
-
-
-
-**change the --> pub?output=ods** | xlsx | pdf | csv
-
-```
 
 ## TimeSlot program
 ```
@@ -81,7 +82,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 **Second Normal approach** --> Typing in the schedule simply to the dictionary
 ```
-## FINAL APPROACH-->
+## FINAL APPROACH
 
 - [X] An Empty list to ask for timeslots, append the time slot in it.
 - [X] For the Defined Tasks, append("Update it..") | then Display the Table with the dict data.
@@ -98,7 +99,7 @@ did not want to stop using while or for loop, whichever suits you.
 
 
 
-## Not Done
+## To do
 
 In **A New File of Python**
 
@@ -106,7 +107,7 @@ use the CSV or xlsx file to retrieve the data from it and use it in python using
 
 ---
 
-**NOT DONE**
+## To do
 
 Get the wifi names and the passwords for all the wifi connected to the laptop using python
 
