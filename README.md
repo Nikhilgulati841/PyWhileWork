@@ -25,7 +25,7 @@
   <br> `web version` pubhtml <br>
    `download version` pub?output=xlsx|ods|pdf|csv|etc...
   <ul>
-   <li><a href="https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing" target="_blank">View | Edit</a></li>
+   <li><a href="https://docs.google.com/spreadsheets/d/1tdlBoFMRnPkawkPP3aBIh_36WWco4yywDFsvKq0L1h4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View | Edit</a></li>
    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdGKeHsVynj132eEq49Myjb09ZdyPXKCsSN5s2iKYFENODPcg/viewform" target="_blank">Fill the form</a></li>
    <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpnjuoGMsQDYyTX2zt5HLndMwitL7UlWaIIDWDVBn5LXPPtqjjGfqbFO25qXi6X112obhGgkNbHKAz/pub?output=xlsx" target="_blank">Download it</li>
   </ul>
