@@ -48,7 +48,7 @@
   <li><a href="https://docs.google.com/document/d/1f9uqDu70LrBFUKJpA8IQM74SRTVeqixq/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true" target="_blank">Daily Understandings</a></li>
   <li><a href="https://docs.google.com/document/d/1n3MJ73W4vFIdFtSQDgg9vM-K0-OHlW8i/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true" target="_blank">DSA Course Understandings</a></li>
   <li><a href="https://docs.google.com/document/d/1fae8Oup7dCE64EHe1Q1TdkEQtou7CL0l/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true" target="_blank">DSA & Platforms Practice Problems Understandings</a></li>
-  <li><a href="https://docs.google.com/document/d/1fgUV65OIkiZV4YrvbXJ0N9BrCj4vuchg/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true" target="_blank">Python All Understandings</li>
+  <li><a href="https://docs.google.com/document/d/1fgUV65OIkiZV4YrvbXJ0N9BrCj4vuchg/edit?usp=drivesdk&ouid=110502976003929694656&rtpof=true&sd=true" target="_blank">Diabetes Study</li>
   <li><a href="https://1drv.ms/o/c/73b62c33f0943b59/Elk7lPAzLLYggHOYAQAAAAABS0_A5f9chMMYPpS9KRSOYQ?e=VX7enQ" target="_blank">Draw Notes</a></li>
   <li><a href="https://www.merriam-webster.com/">Daily Vocabulary</a></li>
  </ol>
