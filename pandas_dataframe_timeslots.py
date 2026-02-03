@@ -215,6 +215,11 @@ def add():
 
 def save():
 
+    # Check if dtdata exists
+    if 'dtdata' not in globals():
+        print("No schedule data to save. Please create a new schedule first.")
+        return
+
     #Define the folder where you want to save the file
     folder_path = 'MySchedule'
     name=input("\n==> Enter the File name to be saved with: ")
@@ -226,7 +231,7 @@ def save():
     # Define the full path for the Excel file
     file_path = os.path.join(folder_path, f'{name}.xlsx')
 
-    sheet_name = f"Data_{datetime.datetime.now().strftime('%d/%m/%Y_%I:%M:%S %p')}"
+    sheet_name = f"Data_{datetime.datetime.now().strftime('%d-%m-%Y_%I_%M_%S %p')}"
 
     try:
         # Save the DataFrame to the specified Excel file
